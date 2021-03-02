@@ -30,7 +30,7 @@ if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   let storedName = localStorage.getItem("name");
-  myHeading.innerHTML = "COMM4511 is cool, " + storedName;
+  myHeading.innerHTML = "UM is the best, " + storedName;
 }
 
 myButton.onclick = function () {
