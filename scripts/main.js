@@ -4,13 +4,13 @@ let myImage = document.querySelector("img");
 
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/brutus2.jpeg") {
-    myImage.setAttribute("src", "images/brutus1.jpeg");
+  if (mySrc === "images/jim2.jpg") {
+    myImage.setAttribute("src", "images/jim1.jpg");
   } else {
-    myImage.setAttribute("src", "images/brutus2.jpeg");
+    myImage.setAttribute("src", "images/jim2.jpg");
   }
 };
-
+//brutus1.jpeg and brutus2.jpeg
 // Personalized welcome message code
 
 let myButton = document.querySelector("button");
@@ -22,7 +22,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.innerHTML = "COMM4511 is cool, " + myName;
+    myHeading.innerHTML = "UM is the best, " + myName;
   }
 }
 
